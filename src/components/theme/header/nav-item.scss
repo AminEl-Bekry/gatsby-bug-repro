@@ -1,0 +1,36 @@
+.navlink-text {
+    @media screen and (max-width: 899px) {
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+}
+
+.navlink-icon {
+    width: 15px;
+    height: 15px;
+    color: white;
+    margin-left: 5px;
+
+    @media screen and (max-width: 899px) {
+        margin-left: auto;
+    }
+
+    svg {
+        transform: rotate(0);
+    }
+}
+
+.navlink-icon-open {
+    width: 15px;
+    height: 15px;
+    color: white;
+    margin-left: 5px;
+
+    @media screen and (max-width: 899px) {
+        margin-left: auto;
+    }
+
+    svg {
+        transform: rotate(180deg);
+    }
+}
